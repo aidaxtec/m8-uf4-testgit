@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <title>Animation</title>
+        <style>
+            div{
+                width: 20vw;
+                height: 20vw;
+                border-radius: 50%;
+                background-image: radial-gradient(cyan,blue);
+                margin: 5vh auto;
+                animation: rotation 0.5s infinite;
+                text-align: center;
+                font-size: xx-large;
+            }
+            @keyframes rotation {
+                100% {
+                    -webkit-transform: rotate(360deg);
+                    transform:rotate(360deg);
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div>Socorro</div>
+    </body>
+</html>
